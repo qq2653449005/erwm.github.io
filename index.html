@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>模范炮兵连</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        video {
+            width: 100%;
+            max-width: 800px; /* 限制视频的最大宽度 */
+            height: auto;
+            margin-top: 20px; /* 添加顶部边距以在视频上方留出空间 */
+        }
+        .text-content {
+            margin-top: 20px;
+            text-indent: 2em; /* 首行缩进两个字符 */
+        }
+        @media (min-width: 600px) {
+            .container {
+                max-width: 600px;
+                margin: auto;
+            }
+            video {
+                max-width: 100%; /* 在较大屏幕上，视频宽度应占满容器 */
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>一炮命中望江灯塔连</h1>
+    <video controls>
+        <source src="./一炮.mp4" type="video/mp4">
+        您的浏览器不支持视频标签。
+    </video>
+    <div class="text-content">
+        <p>第14军化学炮连，组建于1949年2月24日。同年4月21日，化学炮连积极响应中央军委“将革命进行到底”和第二野战军4兵团党委“渡江杀敌立功”的号召，参加渡江作战，接受摧毁国民党军设在长江南岸的望江灯塔的任务。当日17时战斗打响后，该连会同兄弟单位在3.4公里的距离上，对敌江岸滩头阵地猛烈炮击40分钟，发发炮弹命中预定目标，敌江岸香山滩头阵地主要火力点和防御工事大部被毁。战斗中，化学炮连一炮，仅用3发炮弹就将敌“望江灯塔”摧毁，为步兵顺利突防，夺取渡江作战的胜利作出突出贡献。1949年4月21日，第14军授予该连“一炮命中望江灯塔连”荣誉称号。</p>
+        <p>该部现为陆军边防第317旅边防3营10连。</p>
+    </div>
+</div>
+</body>
+</html>
